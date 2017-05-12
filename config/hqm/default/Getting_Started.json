@@ -1,0 +1,1797 @@
+{
+  "name": "Getting Started",
+  "description": "Welcome to the Space Age",
+  "quests": [
+    {
+      "uuid": "ad2e5f44-877d-427b-b9df-08867481a70a",
+      "name": "HoloProjector",
+      "description": "The Holo-Projector is a device that lets you see a selected structure in the world.",
+      "x": 78,
+      "y": 110,
+      "icon": {
+        "id": "libvulpes:holoProjector"
+      },
+      "prerequisites": [
+        "969dbcd3-5e0a-4251-8643-ba368fdb652c"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:holoProjector"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "libvulpes:linker"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "08df7a34-50fc-4ffb-98f6-bb836ac08b8d",
+      "name": "Copper Ore!",
+      "description": "Ores are Blocks that when destroyed or smelted will give crafting materials.",
+      "x": 222,
+      "y": 17,
+      "icon": {
+        "id": "basemetals:copper_ore"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Collect 16 Ores of each kind.",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:ore0",
+                "damage": 4
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "libvulpes:ore0",
+          "damage": 4,
+          "amount": 8
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "basemetals:copper_crackhammer"
+        },
+        {
+          "id": "basemetals:copper_pickaxe"
+        },
+        {
+          "id": "metalliccrops:copper_seeds"
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "aff2e68a-ef87-4cda-be52-ff82cf9bf841",
+      "name": "Iron Ore!",
+      "description": "Ores are Blocks that when destroyed or smelted will give crafting materials.",
+      "x": 172,
+      "y": 17,
+      "icon": {
+        "id": "minecraft:iron_ore"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Iron Ore!",
+          "longDescription": "Collect 16 Ores of each kind.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ore"
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:iron_ore",
+          "amount": 8
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "basemetals:iron_crackhammer"
+        },
+        {
+          "id": "minecraft:iron_pickaxe"
+        },
+        {
+          "id": "metalliccrops:iron_seeds"
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eeb221f0-872a-44df-932d-5499ced44e65",
+      "name": "Titanium Ore",
+      "description": "Ores are Blocks that when destroyed or smelted will give crafting materials.",
+      "x": 272,
+      "y": 46,
+      "icon": {
+        "id": "modernmetals:titanium_ore"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Collect 16 Ores of each kind.",
+          "items": [
+            {
+              "item": {
+                "id": "modernmetals:titanium_ore"
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "modernmetals:titanium_ore",
+          "amount": 8
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "modernmetals:titanium_crackhammer"
+        },
+        {
+          "id": "modernmetals:titanium_pickaxe"
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c908c5cf-7e8b-4b04-ba65-dd16e1036d2f",
+      "name": "Silver Ore!",
+      "description": "Ores are Blocks that when destroyed or smelted will give crafting materials.",
+      "x": 297,
+      "y": 17,
+      "icon": {
+        "id": "techreborn:techreborn.ore",
+        "damage": 13
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Collect 16 Ores of each kind.",
+          "items": [
+            {
+              "item": {
+                "id": "techreborn:techreborn.ore",
+                "damage": 13
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "techreborn:techreborn.ore",
+          "damage": 13,
+          "amount": 8
+        },
+        {
+          "id": "lootbags:itemlootbag",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "basemetals:silver_crackhammer"
+        },
+        {
+          "id": "basemetals:silver_pickaxe"
+        },
+        {
+          "id": "lootbags:itemlootbag",
+          "damage": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "40b639aa-41f7-4dfd-a26a-eb4d7636f735",
+      "name": "Osmium Ore",
+      "description": "Ores are Blocks that when destroyed or smelted will give crafting materials.",
+      "x": 197,
+      "y": 46,
+      "icon": {
+        "id": "modernmetals:osmium_ore"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Collect 16 Ores of each kind.",
+          "items": [
+            {
+              "item": {
+                "id": "modernmetals:osmium_ore"
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "modernmetals:osmium_ore",
+          "amount": 8
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "modernmetals:osmium_crackhammer"
+        },
+        {
+          "id": "modernmetals:osmium_pickaxe"
+        },
+        {
+          "id": "metalliccrops:osmium_seeds"
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "44431098-6c11-4dd0-9d79-f13a74bb04a2",
+      "name": "Lead Ore!",
+      "description": "Ores are Blocks that when destroyed or smelted will give crafting materials.",
+      "x": 272,
+      "y": 17,
+      "icon": {
+        "id": "techreborn:techreborn.ore",
+        "damage": 12
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Collect 16 Ores of each kind.",
+          "items": [
+            {
+              "item": {
+                "id": "techreborn:techreborn.ore",
+                "damage": 12
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "techreborn:techreborn.ore",
+          "damage": 12,
+          "amount": 8
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "basemetals:lead_crackhammer"
+        },
+        {
+          "id": "metalliccrops:lead_seeds"
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1ff761b6-29ad-4bca-9d0d-8cb7aae882c8",
+      "name": "Linker!",
+      "description": "The Linker is a tool that can be used to link various machines together. Most commonly use to link Rocket Assembling Machines.",
+      "x": 78,
+      "y": 158,
+      "icon": {
+        "id": "libvulpes:linker"
+      },
+      "prerequisites": [
+        "ad2e5f44-877d-427b-b9df-08867481a70a"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:linker"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e24a2986-5323-4ea3-8b77-fd20e0ebd812",
+      "name": "Metal Ingots!",
+      "description": "Ingots are  very important materials for getting to space. Ingots are needed to build machines and various component of rockets.",
+      "x": 91,
+      "y": 21,
+      "icon": {
+        "id": "libvulpes:productingot",
+        "damage": 6
+      },
+      "prerequisites": [
+        "969dbcd3-5e0a-4251-8643-ba368fdb652c"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Iron Ingots!",
+          "longDescription": "Collect 16 Ingots of each kind.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Gold Ingots!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gold_ingot"
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Silicon Ingots!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productingot",
+                "damage": 3
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Copper Ingots!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productingot",
+                "damage": 4
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Tin Ingots!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productingot",
+                "damage": 5
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Steel Ingots!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productingot",
+                "damage": 6
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Titanium Ingots!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productingot",
+                "damage": 7
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Aluminum Ingots!",
+          "items": []
+        },
+        {
+          "type": "DETECT",
+          "description": "Iridium Ingots!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productingot",
+                "damage": 10
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "amount": 16
+        },
+        {
+          "id": "libvulpes:productingot",
+          "damage": 3,
+          "amount": 16
+        },
+        {
+          "id": "libvulpes:productingot",
+          "damage": 4,
+          "amount": 16
+        },
+        {
+          "id": "libvulpes:productingot",
+          "damage": 5,
+          "amount": 16
+        },
+        {
+          "id": "libvulpes:productingot",
+          "damage": 9,
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "libvulpes:productingot",
+          "damage": 7,
+          "amount": 8
+        },
+        {
+          "id": "libvulpes:productingot",
+          "damage": 10,
+          "amount": 8
+        },
+        {
+          "id": "libvulpes:productingot",
+          "damage": 6,
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "969dbcd3-5e0a-4251-8643-ba368fdb652c",
+      "name": "Plates Presser",
+      "description": "Early game plates can be made using a Small Plates Presser. The Small Plates Presser can press blocks of metals into 3 metal plates.",
+      "x": 78,
+      "y": 71,
+      "icon": {
+        "id": "advancedrocketry:platePress"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:platePress"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ironbackpacks:basicBackpack"
+        },
+        {
+          "id": "ic2:fluid_cell",
+          "amount": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "basemetals:cupronickel_crackhammer"
+        },
+        {
+          "id": "basemetals:cupronickel_pickaxe"
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c0deb039-eb50-4cb4-97da-4b8cfe5089c8",
+      "name": "Aluminum Ore!",
+      "description": "Ores are Blocks that when destroyed or smelted will give crafting materials.",
+      "x": 172,
+      "y": 46,
+      "icon": {
+        "id": "modernmetals:aluminum_ore"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Collect 16 Ores of each kind.",
+          "items": [
+            {
+              "item": {
+                "id": "modernmetals:aluminum_ore"
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "modernmetals:aluminum_ore",
+          "amount": 8
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "modernmetals:aluminum_crackhammer"
+        },
+        {
+          "id": "modernmetals:aluminum_pickaxe"
+        },
+        {
+          "id": "metalliccrops:aluminum_seeds"
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cf592b29-a8ce-47b5-ba16-a9454e3dba9c",
+      "name": "Plutonium Ore",
+      "description": "Ores are Blocks that when destroyed or smelted will give crafting materials.",
+      "x": 247,
+      "y": 46,
+      "icon": {
+        "id": "modernmetals:plutonium_ore"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Collect 16 Ores of each kind.",
+          "items": [
+            {
+              "item": {
+                "id": "modernmetals:plutonium_ore"
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "modernmetals:plutonium_ore",
+          "amount": 8
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "modernmetals:plutonium_crackhammer"
+        },
+        {
+          "id": "modernmetals:plutonium_pickaxe"
+        },
+        {
+          "id": "metalliccrops:plutonium_seeds"
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d09e6364-0fc9-42eb-843a-063a5b233510",
+      "name": "Iridium Ore",
+      "description": "Ores are Blocks that when destroyed or smelted will give crafting materials.",
+      "x": 222,
+      "y": 46,
+      "icon": {
+        "id": "modernmetals:iridium_ore"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Collect 16 Ores of each kind.",
+          "items": [
+            {
+              "item": {
+                "id": "modernmetals:iridium_ore"
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "modernmetals:iridium_ore",
+          "amount": 8
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "modernmetals:iridium_crackhammer"
+        },
+        {
+          "id": "modernmetals:iridium_pickaxe"
+        },
+        {
+          "id": "metalliccrops:iridium_seeds"
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "41ce5c55-d9b0-4e8c-b579-8b02f31bc203",
+      "name": "Metal Sheets!",
+      "description": "Sheets are  very important materials for getting to space. Sheets are needed to build machines and various component of rockets.",
+      "x": 141,
+      "y": 21,
+      "icon": {
+        "id": "libvulpes:productsheet",
+        "damage": 1
+      },
+      "prerequisites": [
+        "969dbcd3-5e0a-4251-8643-ba368fdb652c"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Iron Sheets!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productsheet",
+                "damage": 1
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Copper Sheets!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productsheet",
+                "damage": 4
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Steel Sheets!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productsheet",
+                "damage": 6
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Titanium Sheets!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productsheet",
+                "damage": 7
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Aluminum Sheets!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productsheet",
+                "damage": 9
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "libvulpes:productsheet",
+          "damage": 1,
+          "amount": 16
+        },
+        {
+          "id": "libvulpes:productsheet",
+          "damage": 4,
+          "amount": 16
+        },
+        {
+          "id": "libvulpes:productsheet",
+          "damage": 9,
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "libvulpes:productsheet",
+          "damage": 6,
+          "amount": 8
+        },
+        {
+          "id": "libvulpes:productsheet",
+          "damage": 7,
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "84e0c71f-67bc-49d5-999f-60c95f26d280",
+      "name": "Metal Gears!",
+      "description": "Gears are ver important materials for getting to space. Gears are needed to build machines and various component of rockets.",
+      "x": 116,
+      "y": 21,
+      "icon": {
+        "id": "thermalfoundation:material",
+        "damage": 24
+      },
+      "prerequisites": [
+        "969dbcd3-5e0a-4251-8643-ba368fdb652c"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Iron Gears!",
+          "longDescription": "Collect 16 Gears of each kind.",
+          "items": [
+            {
+              "item": {
+                "id": "thermalfoundation:material",
+                "damage": 24
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Gold Gears!",
+          "items": [
+            {
+              "item": {
+                "id": "thermalfoundation:material",
+                "damage": 25
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Copper Gears!",
+          "items": [
+            {
+              "item": {
+                "id": "thermalfoundation:material",
+                "damage": 256
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Tin Gears!",
+          "items": [
+            {
+              "item": {
+                "id": "thermalfoundation:material",
+                "damage": 257
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Steel Gears!",
+          "items": [
+            {
+              "item": {
+                "id": "thermalfoundation:material",
+                "damage": 288
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Titanium Gears!",
+          "items": [
+            {
+              "item": {
+                "id": "modernmetals:titanium_gear"
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Aluminum Gears!",
+          "items": [
+            {
+              "item": {
+                "id": "thermalfoundation:material",
+                "damage": 260
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Iridium Gears!",
+          "items": [
+            {
+              "item": {
+                "id": "thermalfoundation:material",
+                "damage": 263
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "thermalfoundation:material",
+          "damage": 24,
+          "amount": 16
+        },
+        {
+          "id": "thermalfoundation:material",
+          "damage": 25,
+          "amount": 16
+        },
+        {
+          "id": "thermalfoundation:material",
+          "damage": 256,
+          "amount": 16
+        },
+        {
+          "id": "thermalfoundation:material",
+          "damage": 257,
+          "amount": 16
+        },
+        {
+          "id": "thermalfoundation:material",
+          "damage": 260,
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "modernmetals:titanium_gear",
+          "amount": 8
+        },
+        {
+          "id": "modernmetals:iridium_gear",
+          "amount": 8
+        },
+        {
+          "id": "thermalfoundation:material",
+          "damage": 288,
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4a338dcc-e43a-4024-ab84-ca870a17df58",
+      "name": "Gold Ore!",
+      "description": "Ores are Blocks that when destroyed or smelted will give crafting materials.",
+      "x": 197,
+      "y": 17,
+      "icon": {
+        "id": "minecraft:gold_ore"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Collect 16 Ores of each kind.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gold_ore"
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:gold_ore",
+          "amount": 8
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "basemetals:gold_crackhammer"
+        },
+        {
+          "id": "minecraft:golden_pickaxe"
+        },
+        {
+          "id": "metalliccrops:gold_seeds"
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "253da22b-1803-4af4-93e6-215e06424abb",
+      "name": "Metal Plates",
+      "description": "Plates are the most basic materials for getting to space. Plates are needed to build machines and various component of rockets.",
+      "x": 39,
+      "y": 20,
+      "icon": {
+        "id": "libvulpes:productplate",
+        "damage": 1
+      },
+      "prerequisites": [
+        "969dbcd3-5e0a-4251-8643-ba368fdb652c"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Iron Plates!",
+          "longDescription": "Collect 16 Plates of each kind.",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productplate",
+                "damage": 1
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Gold Plates!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productplate",
+                "damage": 2
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Silicon Plates!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productplate",
+                "damage": 3
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Copper Plates!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productplate",
+                "damage": 4
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Tin Plates!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productplate",
+                "damage": 5
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Steel Plates!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productplate",
+                "damage": 6
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Titanium Plates!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productplate",
+                "damage": 7
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Aluminum Plates!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productplate",
+                "damage": 9
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Iridium Plates!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productplate",
+                "damage": 10
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "libvulpes:productplate",
+          "damage": 1,
+          "amount": 16
+        },
+        {
+          "id": "libvulpes:productplate",
+          "damage": 2,
+          "amount": 16
+        },
+        {
+          "id": "libvulpes:productplate",
+          "damage": 3,
+          "amount": 16
+        },
+        {
+          "id": "libvulpes:productplate",
+          "damage": 4,
+          "amount": 16
+        },
+        {
+          "id": "libvulpes:productplate",
+          "damage": 5,
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "libvulpes:productplate",
+          "damage": 7,
+          "amount": 8
+        },
+        {
+          "id": "libvulpes:productplate",
+          "damage": 10,
+          "amount": 8
+        },
+        {
+          "id": "libvulpes:productplate",
+          "damage": 6,
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8045793d-1de4-4a6f-bb68-af1a222d344f",
+      "name": "Metal Rods!",
+      "description": "Rods are very important materials for getting to space. Rods are needed to build machines and various component of rockets.",
+      "x": 64,
+      "y": 20,
+      "icon": {
+        "id": "libvulpes:productrod",
+        "damage": 1
+      },
+      "prerequisites": [
+        "969dbcd3-5e0a-4251-8643-ba368fdb652c"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Iron Rods!",
+          "longDescription": "Collect 16 Rods of each kind.",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productrod",
+                "damage": 1
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Gold Rods!",
+          "items": [
+            {
+              "item": {
+                "id": "basemetals:gold_rod"
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Copper Rods!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productrod",
+                "damage": 4
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Steel Rods!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productrod",
+                "damage": 6
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Tin Rods!",
+          "items": [
+            {
+              "item": {
+                "id": "basemetals:tin_rod"
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Titanium Rods!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productrod",
+                "damage": 7
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Aluminum Rods!",
+          "items": [
+            {
+              "item": {
+                "id": "modernmetals:aluminum_rod"
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Iridium Rods!",
+          "items": [
+            {
+              "item": {
+                "id": "modernmetals:iridium_rod"
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "libvulpes:productrod",
+          "damage": 1,
+          "amount": 16
+        },
+        {
+          "id": "basemetals:gold_rod",
+          "amount": 16
+        },
+        {
+          "id": "libvulpes:productrod",
+          "damage": 4,
+          "amount": 16
+        },
+        {
+          "id": "modernmetals:aluminum_rod",
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "libvulpes:productrod",
+          "damage": 6,
+          "amount": 8
+        },
+        {
+          "id": "libvulpes:productrod",
+          "damage": 7,
+          "amount": 8
+        },
+        {
+          "id": "modernmetals:iridium_rod",
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0a76506e-2074-468c-8c0e-3b293e88bf39",
+      "name": "Tin Ore!",
+      "description": "Ores are Blocks that when destroyed or smelted will give crafting materials.",
+      "x": 247,
+      "y": 17,
+      "icon": {
+        "id": "techreborn:techreborn.ore2",
+        "damage": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Collect 16 Ores of each kind.",
+          "items": [
+            {
+              "item": {
+                "id": "techreborn:techreborn.ore2",
+                "damage": 1
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "techreborn:techreborn.ore2",
+          "damage": 1,
+          "amount": 8
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "basemetals:tin_crackhammer"
+        },
+        {
+          "id": "basemetals:tin_pickaxe"
+        },
+        {
+          "id": "metalliccrops:tin_seeds"
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "18abd968-01c3-4054-944d-1d7296809f1c",
+      "name": "Metal Dust!",
+      "description": "Dust is a very important basic material. Dust can be use to double your ores.",
+      "x": 14,
+      "y": 20,
+      "icon": {
+        "id": "libvulpes:productdust",
+        "damage": 1
+      },
+      "prerequisites": [
+        "969dbcd3-5e0a-4251-8643-ba368fdb652c"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Dilithium Dust!",
+          "longDescription": "Collect 16 dust of each kind.",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productdust"
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Iron Dust!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productdust",
+                "damage": 1
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Silicon Dust!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productdust",
+                "damage": 3
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Copper Dust!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productdust",
+                "damage": 4
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Tin Dust!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productdust",
+                "damage": 5
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Steel Dust!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productdust",
+                "damage": 6
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Titanium Dust!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productdust",
+                "damage": 7
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Aluminum Dust!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productdust",
+                "damage": 9
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Iridium Dust!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productdust",
+                "damage": 10
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Gold Dust!",
+          "items": [
+            {
+              "item": {
+                "id": "libvulpes:productdust",
+                "damage": 2
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "libvulpes:productdust",
+          "amount": 16
+        },
+        {
+          "id": "libvulpes:productdust",
+          "damage": 1,
+          "amount": 16
+        },
+        {
+          "id": "libvulpes:productdust",
+          "damage": 2,
+          "amount": 16
+        },
+        {
+          "id": "libvulpes:productdust",
+          "damage": 3,
+          "amount": 16
+        },
+        {
+          "id": "libvulpes:productdust",
+          "damage": 4,
+          "amount": 16
+        },
+        {
+          "id": "libvulpes:productdust",
+          "damage": 5,
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "libvulpes:productdust",
+          "damage": 7,
+          "amount": 8
+        },
+        {
+          "id": "libvulpes:productdust",
+          "damage": 10,
+          "amount": 8
+        },
+        {
+          "id": "libvulpes:productdust",
+          "damage": 6,
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b9cd7036-02cf-4dd5-a9f2-4b61eca7bb19",
+      "name": "Uranium Ore",
+      "description": "Ores are Blocks that when destroyed or smelted will give crafting materials.",
+      "x": 297,
+      "y": 46,
+      "icon": {
+        "id": "modernmetals:uranium_ore"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Collect 16 Ores of each kind.",
+          "items": [
+            {
+              "item": {
+                "id": "modernmetals:uranium_ore"
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "modernmetals:uranium_ore",
+          "amount": 8
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "modernmetals:uranium_crackhammer"
+        },
+        {
+          "id": "modernmetals:uranium_pickaxe"
+        },
+        {
+          "id": "metalliccrops:uranium_seeds"
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

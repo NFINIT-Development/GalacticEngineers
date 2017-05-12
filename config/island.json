@@ -1,0 +1,18 @@
+{
+  "knoxhack": {
+    "playerName": "knoxhack",
+    "playerId": "4fd9157d-96e5-4253-b259-ec1f6ed42de3",
+    "islandName": "island_knoxhack",
+    "posX": 248,
+    "posY": 64,
+    "posZ": 252
+  },
+  "spawn": {
+    "playerName": "default_island",
+    "playerId": null,
+    "islandName": "spawn_island",
+    "posX": -252,
+    "posY": 66,
+    "posZ": 252
+  }
+}

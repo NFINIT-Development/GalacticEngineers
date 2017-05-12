@@ -1,0 +1,737 @@
+{
+  "name": "Satellites!",
+  "description": "Satellites.",
+  "quests": [
+    {
+      "uuid": "c2f19240-1675-40cf-9c0e-c083ad7aa64d",
+      "name": "Composition Sensor!",
+      "description": "Used to build Composition Scanner Satellites.",
+      "x": 78,
+      "y": 100,
+      "icon": {
+        "id": "advancedrocketry:satellitePrimaryFunction",
+        "damage": 1
+      },
+      "prerequisites": [
+        "7c586fcc-645e-4ab0-b163-e077504a0273"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:satellitePrimaryFunction",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "87170bda-7fdc-467e-b13a-e01c9b59cc6e",
+      "name": "Optical Sensor!",
+      "description": "Used to build Optical Telescope Satellites.",
+      "x": 110,
+      "y": 99,
+      "icon": {
+        "id": "advancedrocketry:satellitePrimaryFunction"
+      },
+      "prerequisites": [
+        "7c586fcc-645e-4ab0-b163-e077504a0273"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:satellitePrimaryFunction"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7c586fcc-645e-4ab0-b163-e077504a0273",
+      "name": "Satellite ID Chips!",
+      "description": "ID Chips in general are used to link things together or identify them.",
+      "x": 78,
+      "y": 49,
+      "icon": {
+        "id": "advancedrocketry:satelliteIdChip"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:satelliteIdChip"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "advancedrocketry:satelliteIdChip",
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "40dd1b38-658a-4180-8f24-54791a24204e",
+      "name": "Microwave Trasmitter!",
+      "description": "Used to build Microwave Energy Satellites.",
+      "x": 17,
+      "y": 100,
+      "icon": {
+        "id": "advancedrocketry:satellitePrimaryFunction",
+        "damage": 3
+      },
+      "prerequisites": [
+        "7c586fcc-645e-4ab0-b163-e077504a0273"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:satellitePrimaryFunction",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "84363e5e-d447-4a65-8550-830d1306389c",
+      "name": "Mass Detector!",
+      "description": "Used to build Mass Scanner Satellites.",
+      "x": 44,
+      "y": 100,
+      "icon": {
+        "id": "advancedrocketry:satellitePrimaryFunction",
+        "damage": 2
+      },
+      "prerequisites": [
+        "7c586fcc-645e-4ab0-b163-e077504a0273"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:satellitePrimaryFunction",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "32563e62-0c00-49a0-843c-9931ec45be5a",
+      "name": "Satellite!",
+      "description": "Satellites are objects you can build and launch into orbit using a Satellite Bay on a rocket that can perform actions such as collect energy and data.",
+      "x": 78,
+      "y": 146,
+      "icon": {
+        "id": "advancedrocketry:satellite"
+      },
+      "prerequisites": [
+        "87170bda-7fdc-467e-b13a-e01c9b59cc6e",
+        "c2f19240-1675-40cf-9c0e-c083ad7aa64d",
+        "84363e5e-d447-4a65-8550-830d1306389c"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:satellite"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 4
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 4
+        },
+        {
+          "id": "xlfoodmod:super_energy_drink",
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dd279808-d118-4ff0-8561-3d6313491cef",
+      "name": "Stallite bay!",
+      "description": "Satellite bay.",
+      "x": 78,
+      "y": 187,
+      "icon": {
+        "id": "advancedrocketry:loader",
+        "damage": 1
+      },
+      "prerequisites": [
+        "32563e62-0c00-49a0-843c-9931ec45be5a"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:loader",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2d2b14c6-3ac3-40e5-934e-ae89b6bddc78",
+      "name": "Satellite Builder!",
+      "description": "Used to build Satellites.",
+      "x": 78,
+      "y": 16,
+      "icon": {
+        "id": "advancedrocketry:satelliteBuilder"
+      },
+      "prerequisites": [
+        "7c586fcc-645e-4ab0-b163-e077504a0273"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:satelliteBuilder"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2d0dd8b1-de54-48c0-bf00-804dcc68620f",
+      "name": "Ore Mapper!",
+      "description": "Used to build Ore Mapper Satellites.",
+      "x": 141,
+      "y": 98,
+      "icon": {
+        "id": "advancedrocketry:satellitePrimaryFunction",
+        "damage": 4
+      },
+      "prerequisites": [
+        "7c586fcc-645e-4ab0-b163-e077504a0273"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:satellitePrimaryFunction",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 4
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 4
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "901eb34d-84ea-4966-8600-70af06e2dc88",
+      "name": "Data Cables!",
+      "description": "Data Cables privide a way to transfer data between machines without requiring the data chip.",
+      "x": 286,
+      "y": 49,
+      "icon": {
+        "id": "advancedrocketry:dataPipe"
+      },
+      "prerequisites": [
+        "86b0a971-7bab-4e56-b746-26eced7c1594"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:dataPipe"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "advancedrocketry:dataPipe",
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "acbfefc2-296a-4e32-bc9a-101cf6f69b77",
+      "name": "Asteroid Chips!",
+      "description": "ID Chips in general are used to link things together or identify them.",
+      "x": 232,
+      "y": 123,
+      "icon": {
+        "id": "advancedrocketry:asteroidChip"
+      },
+      "prerequisites": [
+        "2b7b2393-67b8-453a-b140-e12487d8d66f"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:asteroidChip"
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "advancedrocketry:asteroidChip"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2b7b2393-67b8-453a-b140-e12487d8d66f",
+      "name": "Astrobody Data Processor!",
+      "description": "The Astrobody Data Processor is essentially a computer that analyses sata brought in from satellites and telescopes. The porpuse of this machine is to process data and program the analysed data into Asteroid ID Chips for use with Asteroid Mining Missions.",
+      "x": 232,
+      "y": 85,
+      "icon": {
+        "id": "advancedrocketry:planetAnalyser"
+      },
+      "prerequisites": [
+        "86b0a971-7bab-4e56-b746-26eced7c1594"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:planetAnalyser"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "55d0ef7c-80e8-46f9-b31a-924a7c03c644",
+      "name": "Data Storage Units!",
+      "description": "Data Storage Units are used to store data of different types.",
+      "x": 232,
+      "y": 16,
+      "icon": {
+        "id": "advancedrocketry:dataUnit"
+      },
+      "prerequisites": [
+        "2d2b14c6-3ac3-40e5-934e-ae89b6bddc78"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:dataUnit"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "advancedrocketry:dataUnit",
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "86b0a971-7bab-4e56-b746-26eced7c1594",
+      "name": "Satellite Terminal!",
+      "description": "The Satellite Terminal is used to interface with satellites that have been launched into orbit.",
+      "x": 232,
+      "y": 49,
+      "icon": {
+        "id": "advancedrocketry:satelliteControlCenter"
+      },
+      "prerequisites": [
+        "7c586fcc-645e-4ab0-b163-e077504a0273",
+        "55d0ef7c-80e8-46f9-b31a-924a7c03c644"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:satelliteControlCenter"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}
