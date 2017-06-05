@@ -9,394 +9,405 @@
             <rotationalPeriod>24000</rotationalPeriod>
             <atmosphereDensity>100</atmosphereDensity>
             <planet name="Moon" DIMID="-28" dimMapping="">
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>1.0,1.0,1.0</skyColor>
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>120</orbitalDistance>
+                <orbitalPhi>0</orbitalPhi>
+                <rotationalPeriod>24000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+        </planet>
+		<planet name="Mercury" DIMID="-13" dimMapping="">
             <fogColor>1.0,1.0,1.0</fogColor>
             <skyColor>1.0,1.0,1.0</skyColor>
-            <gravitationalMultiplier>16</gravitationalMultiplier>
-            <orbitalDistance>120</orbitalDistance>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>40</orbitalDistance>
             <orbitalPhi>0</orbitalPhi>
             <rotationalPeriod>24000</rotationalPeriod>
             <atmosphereDensity>0</atmosphereDensity>
-            </planet>
-        </planet>
-		        <planet name="Mercury" DIMID="-13" dimMapping="">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>40</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
         </planet>
         <planet name="Mars" DIMID="-29" dimMapping="">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>160</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
-			<planet name="Phobos" DIMID="-33" dimMapping="">
             <fogColor>1.0,1.0,1.0</fogColor>
             <skyColor>1.0,1.0,1.0</skyColor>
-            <gravitationalMultiplier>16</gravitationalMultiplier>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
             <orbitalDistance>160</orbitalDistance>
             <orbitalPhi>0</orbitalPhi>
             <rotationalPeriod>24000</rotationalPeriod>
             <atmosphereDensity>0</atmosphereDensity>
+			<planet name="Phobos" DIMID="-33" dimMapping="">
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>1.0,1.0,1.0</skyColor>
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>160</orbitalDistance>
+                <orbitalPhi>0</orbitalPhi>
+                <rotationalPeriod>24000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
             </planet>
 			<planet name="Deimos" DIMID="-35" dimMapping="">
-            <fogColor>1.0,1.0,1.0</fogColor>
-            <skyColor>1.0,1.0,1.0</skyColor>
-            <gravitationalMultiplier>16</gravitationalMultiplier>
-            <orbitalDistance>160</orbitalDistance>
-            <orbitalPhi>0</orbitalPhi>
-            <rotationalPeriod>24000</rotationalPeriod>
-            <atmosphereDensity>0</atmosphereDensity>
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>1.0,1.0,1.0</skyColor>
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>160</orbitalDistance>
+                <orbitalPhi>0</orbitalPhi>
+                <rotationalPeriod>24000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
             </planet>
         </planet>
 		<planet name="Venus" DIMID="-31" dimMapping="">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>80</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>80</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
         </planet>
 		<planet name="Asteroids" DIMID="-30" dimMapping="">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>16</gravitationalMultiplier>
-                    <orbitalDistance>220</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
-        </planet>
-		        <planet name="Ceres" DIMID="-20" dimMapping="">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>140</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
-        </planet>
-				<planet name="Jupiter" DIMID="-15" dimMapping="">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>200</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
-								
-			<planet name="IO" DIMID="-32" dimMapping="">
             <fogColor>1.0,1.0,1.0</fogColor>
             <skyColor>1.0,1.0,1.0</skyColor>
             <gravitationalMultiplier>16</gravitationalMultiplier>
-            <orbitalDistance>200</orbitalDistance>
+            <orbitalDistance>220</orbitalDistance>
             <orbitalPhi>0</orbitalPhi>
             <rotationalPeriod>24000</rotationalPeriod>
             <atmosphereDensity>0</atmosphereDensity>
+        </planet>
+		<planet name="Ceres" DIMID="-20" dimMapping="">
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>140</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>
+		<planet name="Jupiter" DIMID="-15" dimMapping="">
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>200</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>				
+			<planet name="IO" DIMID="-32" dimMapping="">
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>1.0,1.0,1.0</skyColor>
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>200</orbitalDistance>
+                <orbitalPhi>0</orbitalPhi>
+                <rotationalPeriod>24000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
             </planet>			
 			<planet name="Europa" DIMID="-34" dimMapping="">
-            <fogColor>1.0,1.0,1.0</fogColor>
-            <skyColor>1.0,1.0,1.0</skyColor>
-            <gravitationalMultiplier>16</gravitationalMultiplier>
-            <orbitalDistance>200</orbitalDistance>
-            <orbitalPhi>0</orbitalPhi>
-            <rotationalPeriod>24000</rotationalPeriod>
-            <atmosphereDensity>0</atmosphereDensity>
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>1.0,1.0,1.0</skyColor>
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>200</orbitalDistance>
+                <orbitalPhi>0</orbitalPhi>
+                <rotationalPeriod>24000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
             </planet>			
 			<planet name="Ganymede" DIMID="-38" dimMapping="">
-            <fogColor>1.0,1.0,1.0</fogColor>
-            <skyColor>1.0,1.0,1.0</skyColor>
-            <gravitationalMultiplier>16</gravitationalMultiplier>
-            <orbitalDistance>200</orbitalDistance>
-            <orbitalPhi>0</orbitalPhi>
-            <rotationalPeriod>24000</rotationalPeriod>
-            <atmosphereDensity>0</atmosphereDensity>
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>1.0,1.0,1.0</skyColor>
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>200</orbitalDistance>
+                <orbitalPhi>0</orbitalPhi>
+                <rotationalPeriod>24000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
             </planet>			
 			<planet name="Callisto" DIMID="-37" dimMapping="">
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>1.0,1.0,1.0</skyColor>
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>200</orbitalDistance>
+                <orbitalPhi>0</orbitalPhi>
+                <rotationalPeriod>24000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+        </planet>		        
+		<planet name="Saturn" DIMID="-16" dimMapping="">
             <fogColor>1.0,1.0,1.0</fogColor>
             <skyColor>1.0,1.0,1.0</skyColor>
-            <gravitationalMultiplier>16</gravitationalMultiplier>
-            <orbitalDistance>200</orbitalDistance>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>240</orbitalDistance>
             <orbitalPhi>0</orbitalPhi>
             <rotationalPeriod>24000</rotationalPeriod>
             <atmosphereDensity>0</atmosphereDensity>
-            </planet>
-        </planet>		        <planet name="Saturn" DIMID="-16" dimMapping="">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>240</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
 			<planet name="Rhea" DIMID="-39" dimMapping="">
-            <fogColor>1.0,1.0,1.0</fogColor>
-            <skyColor>1.0,1.0,1.0</skyColor>
-            <gravitationalMultiplier>16</gravitationalMultiplier>
-            <orbitalDistance>240</orbitalDistance>
-            <orbitalPhi>0</orbitalPhi>
-            <rotationalPeriod>24000</rotationalPeriod>
-            <atmosphereDensity>0</atmosphereDensity>
-            </planet>			<planet name="Titan" DIMID="-40" dimMapping="">
-            <fogColor>1.0,1.0,1.0</fogColor>
-            <skyColor>1.0,1.0,1.0</skyColor>
-            <gravitationalMultiplier>16</gravitationalMultiplier>
-            <orbitalDistance>240</orbitalDistance>
-            <orbitalPhi>0</orbitalPhi>
-            <rotationalPeriod>24000</rotationalPeriod>
-            <atmosphereDensity>0</atmosphereDensity>
-            </planet>			<planet name="Iapetus" DIMID="-43" dimMapping="">
-            <fogColor>1.0,1.0,1.0</fogColor>
-            <skyColor>1.0,1.0,1.0</skyColor>
-            <gravitationalMultiplier>16</gravitationalMultiplier>
-            <orbitalDistance>240</orbitalDistance>
-            <orbitalPhi>0</orbitalPhi>
-            <rotationalPeriod>24000</rotationalPeriod>
-            <atmosphereDensity>0</atmosphereDensity>
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>1.0,1.0,1.0</skyColor>
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>240</orbitalDistance>
+                <orbitalPhi>0</orbitalPhi>
+                <rotationalPeriod>24000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>			
+			<planet name="Titan" DIMID="-40" dimMapping="">
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>1.0,1.0,1.0</skyColor>
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>240</orbitalDistance>
+                <orbitalPhi>0</orbitalPhi>
+                <rotationalPeriod>24000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>			
+			<planet name="Iapetus" DIMID="-43" dimMapping="">
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>1.0,1.0,1.0</skyColor>
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>240</orbitalDistance>
+                <orbitalPhi>0</orbitalPhi>
+                <rotationalPeriod>24000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
             </planet>
-        </planet>		        <planet name="Uranus" DIMID="-17" dimMapping="">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>280</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
-			<planet name="Oberon" DIMID="-41" dimMapping="">
+        </planet>		        
+		<planet name="Uranus" DIMID="-17" dimMapping="">
             <fogColor>1.0,1.0,1.0</fogColor>
             <skyColor>1.0,1.0,1.0</skyColor>
-            <gravitationalMultiplier>16</gravitationalMultiplier>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
             <orbitalDistance>280</orbitalDistance>
             <orbitalPhi>0</orbitalPhi>
             <rotationalPeriod>24000</rotationalPeriod>
             <atmosphereDensity>0</atmosphereDensity>
+			<planet name="Oberon" DIMID="-41" dimMapping="">
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>1.0,1.0,1.0</skyColor>
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>280</orbitalDistance>
+                <orbitalPhi>0</orbitalPhi>
+                <rotationalPeriod>24000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
             </planet>
 			<planet name="Titania" DIMID="-42" dimMapping="">
-            <fogColor>1.0,1.0,1.0</fogColor>
-            <skyColor>1.0,1.0,1.0</skyColor>
-            <gravitationalMultiplier>16</gravitationalMultiplier>
-            <orbitalDistance>280</orbitalDistance>
-            <orbitalPhi>0</orbitalPhi>
-            <rotationalPeriod>24000</rotationalPeriod>
-            <atmosphereDensity>0</atmosphereDensity>
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>1.0,1.0,1.0</skyColor>
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>280</orbitalDistance>
+                <orbitalPhi>0</orbitalPhi>
+                <rotationalPeriod>24000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
             </planet>
         </planet>	
 		<planet name="Neptune" DIMID="-18" dimMapping="">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>320</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
-			<planet name="Triton" DIMID="-36" dimMapping="">
             <fogColor>1.0,1.0,1.0</fogColor>
             <skyColor>1.0,1.0,1.0</skyColor>
-            <gravitationalMultiplier>16</gravitationalMultiplier>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
             <orbitalDistance>320</orbitalDistance>
             <orbitalPhi>0</orbitalPhi>
             <rotationalPeriod>24000</rotationalPeriod>
             <atmosphereDensity>0</atmosphereDensity>
+			<planet name="Triton" DIMID="-36" dimMapping="">
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>1.0,1.0,1.0</skyColor>
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>320</orbitalDistance>
+                <orbitalPhi>0</orbitalPhi>
+                <rotationalPeriod>24000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
             </planet>
-        </planet>		        <planet name="Pluto" DIMID="-19" dimMapping="">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>360</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
-        </planet>		        <planet name="Eris" DIMID="-21" dimMapping="">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>400</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
+        </planet>		        
+		<planet name="Pluto" DIMID="-19" dimMapping="">
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>360</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>		        
+		<planet name="Eris" DIMID="-21" dimMapping="">
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>400</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
         </planet>
 		<planet name="Haumea" DIMID="1020">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>440</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
-        </planet><planet name="Kuiper Belt" DIMID="1021">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>480</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
-        </planet><planet name="MakeMake" DIMID="1022">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>520</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>440</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>
+		<planet name="Kuiper Belt" DIMID="1021">
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>480</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>
+		<planet name="MakeMake" DIMID="1022">
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>520</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
         </planet>
     </star>
-	    <star name="Kepler-22" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
-     <planet name="Kepler 22b" DIMID="-22" dimMapping="">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>100</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
+	<star name="Kepler-22" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
+	    <planet name="Kepler 22b" DIMID="-22" dimMapping="">
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
         </planet>
 		<planet name="Kepler 47b" DIMID="1023">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>140</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>140</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
         </planet>
 		<planet name="Kepler 47c" DIMID="1024">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>180</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
+           <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>180</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
         </planet>
 		<planet name="Kepler 62b" DIMID="1025">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>220</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>220</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
         </planet>
 		<planet name="Kepler 62c" DIMID="1026">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>2060</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>2060</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
         </planet>
 		<planet name="Kepler 62d" DIMID="1027">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>300</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>300</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
         </planet>
 		<planet name="Kepler 62e" DIMID="1028">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>340</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>340</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
         </planet>
 		<planet name="Kepler 62f" DIMID="1029">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>380</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>380</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
         </planet>
 		<planet name="Kepler 69b" DIMID="1030">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>420</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>420</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
         </planet>
 		<planet name="Kepler 69c" DIMID="1031">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>460</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>460</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
         </planet>
     </star>
-		    <star name="TRAPPIST-1" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
-     <planet name="B" DIMID="1032">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>100</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
+	<star name="TRAPPIST-1" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
+        <planet name="B" DIMID="1032">
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
         </planet>
-		     <planet name="C" DIMID="1033" >
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>140</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
-        </planet>     <planet name="D" DIMID="1034" >
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>160</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
-        </planet>     <planet name="E" DIMID="1035">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>180</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
-        </planet>     <planet name="F" DIMID="1036">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>220</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
-        </planet>     <planet name="G" DIMID="1037">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>260</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
-        </planet>     <planet name="H" DIMID="1038">
-                    <fogColor>1.0,1.0,1.0</fogColor>
-                    <skyColor>1.0,1.0,1.0</skyColor>
-                    <gravitationalMultiplier>37</gravitationalMultiplier>
-                    <orbitalDistance>300</orbitalDistance>
-                    <orbitalPhi>0</orbitalPhi>
-                    <rotationalPeriod>24000</rotationalPeriod>
-                    <atmosphereDensity>0</atmosphereDensity>
+		    <planet name="C" DIMID="1033" >
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>140</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>     
+		<planet name="D" DIMID="1034" >
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>160</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>     
+		<planet name="E" DIMID="1035">
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>180</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>     
+		<planet name="F" DIMID="1036">
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>220</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>     
+		<planet name="G" DIMID="1037">
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>260</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>     
+		<planet name="H" DIMID="1038">
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+            <orbitalDistance>300</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
         </planet>
-
     </star>
 </galaxy>
