@@ -1,0 +1,151 @@
+
+{
+  "ID": 114,
+  "Name": "Aether Highlands",
+  "Class": "com.legacy.aether.server.world.biome.AetherBiome",
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "aether_legacy:aether_grass",
+  "Filler Block": "aether_legacy:holystone",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 0.5,
+  "Humidity": 0.5,
+  "Water Tint": 16777215,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "PLAINS"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "com.legacy.aether.server.entities.passive.EntitySheepuff",
+      "Weight": 30,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.legacy.aether.server.entities.passive.mountable.EntityPhyg",
+      "Weight": 39,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.legacy.aether.server.entities.passive.mountable.EntityMoa",
+      "Weight": 40,
+      "Min Group Count": 3,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.legacy.aether.server.entities.passive.mountable.EntityFlyingCow",
+      "Weight": 46,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.legacy.aether.server.entities.passive.mountable.EntityAerbunny",
+      "Weight": 36,
+      "Min Group Count": 3,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "betteragriculture.entity.entitymob.EntityMobCow1",
+      "Weight": 10,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "betteragriculture.entity.entitymob.EntityMobCow2",
+      "Weight": 10,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "betteragriculture.entity.entitymob.EntityMobCow3",
+      "Weight": 10,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "betteragriculture.entity.entitymob.EntityMobCow4",
+      "Weight": 10,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "betteragriculture.entity.entitymob.EntityMobCow5",
+      "Weight": 10,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "betteragriculture.entity.entitymob.EntityMobCow6",
+      "Weight": 10,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "betteragriculture.entity.entitymob.EntityMobCow7",
+      "Weight": 10,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "betteragriculture.entity.entitymob.EntityMobCow8",
+      "Weight": 10,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "betteragriculture.entity.entitymob.EntityMobCow9",
+      "Weight": 10,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "betteragriculture.entity.entitymob.EntityMobCow10",
+      "Weight": 10,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "com.legacy.aether.server.entities.passive.mountable.EntitySwet",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.legacy.aether.server.entities.hostile.EntityAechorPlant",
+      "Weight": 70,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.legacy.aether.server.entities.hostile.EntityCockatrice",
+      "Weight": 60,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "com.legacy.aether.server.entities.passive.EntityAerwhale",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.legacy.aether.server.entities.hostile.EntityZephyr",
+      "Weight": 5,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawn Biome": false,
+  "Tweaked": false
+}

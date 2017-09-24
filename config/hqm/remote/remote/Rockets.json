@@ -1,0 +1,763 @@
+{
+  "name": "Rockets",
+  "description": "Rockets.",
+  "quests": [
+    {
+      "uuid": "a34c68b0-fda7-4a92-9e67-960e5f4d02a8",
+      "name": "Liquid Fueled Tank!",
+      "description": "Fuel Tanks are cylindrical containers used to store rocket fuel onboard rockets.",
+      "x": 175,
+      "y": 129,
+      "icon": {
+        "id": "advancedrocketry:fuelTank"
+      },
+      "prerequisites": [
+        "b2ef8b8c-43cd-4f73-9e97-5ea5a53f4746"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:fuelTank"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "713db8c1-ee8c-4498-9bbb-24b4c9d4de40",
+      "name": "Electrolycer",
+      "description": "The Electrolizer can be used to make Oxygen and Hydrogen.",
+      "x": 78,
+      "y": 11,
+      "icon": {
+        "id": "advancedrocketry:electrolyser"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:electrolyser"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "697436b4-a065-4c6f-9d93-7162d065736a",
+      "name": "Chemical Reactor",
+      "description": "The Chemical reactor can be use to make Rocket Fuel.",
+      "x": 78,
+      "y": 74,
+      "icon": {
+        "id": "advancedrocketry:chemicalReactor"
+      },
+      "prerequisites": [
+        "713db8c1-ee8c-4498-9bbb-24b4c9d4de40"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:chemicalReactor"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9a5a4482-a884-4747-86ee-7ee582553f4b",
+      "name": "Launchpad Blocks",
+      "description": "A concrete block that servers as the base for the rocket assembly platform.",
+      "x": 291,
+      "y": 132,
+      "icon": {
+        "id": "advancedrocketry:launchpad"
+      },
+      "prerequisites": [
+        "b2ef8b8c-43cd-4f73-9e97-5ea5a53f4746"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:launchpad"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7062d197-242a-486f-bd3d-d21163a73eb3",
+      "name": "Seat!",
+      "description": "Seats are required for players space travel.",
+      "x": 174,
+      "y": 170,
+      "icon": {
+        "id": "advancedrocketry:seat"
+      },
+      "prerequisites": [
+        "b2ef8b8c-43cd-4f73-9e97-5ea5a53f4746"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:seat"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "04517cf7-6f6d-43ad-886a-6c897170621e",
+      "name": "Drills!",
+      "description": "Used for Asteroid Mining Missions.",
+      "x": 293,
+      "y": 169,
+      "icon": {
+        "id": "advancedrocketry:drill"
+      },
+      "prerequisites": [
+        "b2ef8b8c-43cd-4f73-9e97-5ea5a53f4746"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:drill"
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "53152177-7145-4d77-ba2d-47ea16809f7e",
+      "name": "Guidance Computer!",
+      "description": "The Guidance Computer is responsable for determining the trajectory of a rocket so that it can reach its destination.",
+      "x": 232,
+      "y": 183,
+      "icon": {
+        "id": "advancedrocketry:guidanceComputer"
+      },
+      "prerequisites": [
+        "b2ef8b8c-43cd-4f73-9e97-5ea5a53f4746"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:guidanceComputer"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "627b0f0d-f852-48a5-b6f2-931dde9a6730",
+      "name": "Fueling Station!",
+      "description": "The Fueling Stations are used to fuel rockets without having to manually bucket fuel in.",
+      "x": 271,
+      "y": 13,
+      "icon": {
+        "id": "advancedrocketry:fuelingStation"
+      },
+      "prerequisites": [
+        "b2ef8b8c-43cd-4f73-9e97-5ea5a53f4746"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:fuelingStation"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b2ef8b8c-43cd-4f73-9e97-5ea5a53f4746",
+      "name": "Rocket Assenbly Machine",
+      "description": "The Rocket Assembling Machine is a block the uses power to scan and build rockets on multiblocks launch pad structures. The multistructure can be build with launch pad blocks in sizes betwen 3x3 and 16x16. Structure Tower Blocks are also necessary and they can be betwen 4 and 64 blocks high.",
+      "x": 232,
+      "y": 78,
+      "icon": {
+        "id": "advancedrocketry:rocketBuilder"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:rocketBuilder"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1b037fdd-f897-4e96-a8ab-795d575e6841",
+      "name": "Tank of Oxygen.",
+      "description": "Exigen is needed to make Rocket Fuel and to fill Space Suits.",
+      "x": 132,
+      "y": 74,
+      "icon": {
+        "id": "advancedrocketry:bucketOxygen"
+      },
+      "prerequisites": [
+        "713db8c1-ee8c-4498-9bbb-24b4c9d4de40"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:bucketOxygen"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "advancedrocketry:bucketOxygen",
+          "amount": 8
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5988e84b-bd97-4c64-861f-168d1dba6717",
+      "name": "Liquid Fueled Engine.",
+      "description": "Rocket Engines are critical components in any functioning rocket.",
+      "x": 211,
+      "y": 150,
+      "icon": {
+        "id": "advancedrocketry:rocketmotor"
+      },
+      "prerequisites": [
+        "b2ef8b8c-43cd-4f73-9e97-5ea5a53f4746"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:rocketmotor"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e16b79e8-2b43-457d-8536-c895cd7129ae",
+      "name": "Rocket Fuel.",
+      "description": "Fuel used by Rockets.",
+      "x": 78,
+      "y": 148,
+      "icon": {
+        "id": "advancedrocketry:bucketHydrogen"
+      },
+      "prerequisites": [
+        "697436b4-a065-4c6f-9d93-7162d065736a",
+        "9c9f96cf-308d-4d6f-96cf-9192a65b0e0f",
+        "1b037fdd-f897-4e96-a8ab-795d575e6841"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:bucketRocketFuel"
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "advancedrocketry:bucketRocketFuel",
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 4
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 4
+        },
+        {
+          "id": "xlfoodmod:super_energy_drink",
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "22f099cd-dd09-49a4-9311-468df987a641",
+      "name": "Structure Tower Blocks",
+      "description": "Structure Tower Blocks define the vertical distance for Rocket Assembling Machines.",
+      "x": 251,
+      "y": 149,
+      "icon": {
+        "id": "advancedrocketry:structureTower"
+      },
+      "prerequisites": [
+        "b2ef8b8c-43cd-4f73-9e97-5ea5a53f4746"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:structureTower"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9c9f96cf-308d-4d6f-96cf-9192a65b0e0f",
+      "name": "Tank of Hydrogen.",
+      "description": "Used to make Rocket Fuel.",
+      "x": 24,
+      "y": 75,
+      "icon": {
+        "id": "advancedrocketry:bucketRocketFuel"
+      },
+      "prerequisites": [
+        "713db8c1-ee8c-4498-9bbb-24b4c9d4de40"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:bucketHydrogen"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "advancedrocketry:bucketHydrogen",
+          "amount": 8
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d2e7287b-49de-4179-b16f-e27f9e6eb199",
+      "name": "Rocket Monitoring Station!",
+      "description": "The Rocket Monitoring Station is used to remotely launch and monitor the progress of any rocket, manned or unmanned.",
+      "x": 194,
+      "y": 15,
+      "icon": {
+        "id": "advancedrocketry:monitoringStation"
+      },
+      "prerequisites": [
+        "b2ef8b8c-43cd-4f73-9e97-5ea5a53f4746"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:monitoringStation"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

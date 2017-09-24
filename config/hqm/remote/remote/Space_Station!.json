@@ -1,0 +1,657 @@
+{
+  "name": "Space Station!",
+  "description": "Space Station.",
+  "quests": [
+    {
+      "uuid": "b5821d1e-d424-4e53-b2b8-2b3e166f91fd",
+      "name": "Space Station Assembler!",
+      "description": "Space Station Assembler!",
+      "x": 74,
+      "y": 51,
+      "icon": {
+        "id": "advancedrocketry:stationBuilder"
+      },
+      "prerequisites": [
+        "8beea6a7-d19c-4d38-aa96-f095469ea824"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:stationBuilder"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2749812b-e3ab-429c-a251-3dd820dc6dc9",
+      "name": "Docking Pad!",
+      "description": "Docking Pad!",
+      "x": 235,
+      "y": 46,
+      "icon": {
+        "id": "advancedrocketry:landingPad"
+      },
+      "prerequisites": [
+        "ac43851f-ccac-4300-8e0d-3f2e107bb5ea"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:landingPad"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c3d0542a-2bce-4060-8453-cbf126aca6df",
+      "name": "Orientation Controller!",
+      "description": "Orientation Controller!",
+      "x": 96,
+      "y": 160,
+      "icon": {
+        "id": "advancedrocketry:orientationController"
+      },
+      "prerequisites": [
+        "eb0270cc-bdbd-4ade-91f5-ee513c5d9724"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:orientationController"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2,
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0c472038-c51f-4de1-a7f3-ae579f780973",
+      "name": "Space Station Container!",
+      "description": "Space Station Container!",
+      "x": 74,
+      "y": 84,
+      "icon": {
+        "id": "advancedrocketry:spaceStation"
+      },
+      "prerequisites": [
+        "b5821d1e-d424-4e53-b2b8-2b3e166f91fd"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:spaceStation"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4a5ce4c5-dc02-4aaf-9f07-df81ee19d6f4",
+      "name": "Carbon Colletion Cartridge!",
+      "description": "Carbon Colletion Cartridge!",
+      "x": 24,
+      "y": 189,
+      "icon": {
+        "id": "advancedrocketry:carbonScrubberCartridge"
+      },
+      "prerequisites": [
+        "a2a1d1ff-ca71-4ac4-a54c-cbebf8c72bd4"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:carbonScrubberCartridge"
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "advancedrocketry:carbonScrubberCartridge",
+          "amount": 8
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ac43851f-ccac-4300-8e0d-3f2e107bb5ea",
+      "name": "Station Docking Port!",
+      "description": "Station Docking Port!",
+      "x": 235,
+      "y": 16,
+      "icon": {
+        "id": "advancedrocketry:stationMarker"
+      },
+      "prerequisites": [
+        "eb0270cc-bdbd-4ade-91f5-ee513c5d9724"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:stationMarker"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c12ac98e-4b86-4f3a-8b02-07cc894a664e",
+      "name": "Altitude Controller!",
+      "description": "Altitude Controller!",
+      "x": 122,
+      "y": 137,
+      "icon": {
+        "id": "advancedrocketry:altitudeController"
+      },
+      "prerequisites": [
+        "eb0270cc-bdbd-4ade-91f5-ee513c5d9724"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:altitudeController"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eb0270cc-bdbd-4ade-91f5-ee513c5d9724",
+      "name": "Oxygen Vent!",
+      "description": "Oxygen Vent!",
+      "x": 74,
+      "y": 122,
+      "icon": {
+        "id": "advancedrocketry:oxygenVent"
+      },
+      "prerequisites": [
+        "0c472038-c51f-4de1-a7f3-ae579f780973"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:oxygenVent"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ad97957e-2405-4966-b5da-0e655dbe26be",
+      "name": "Orbital Drill!",
+      "description": "Orbital Drill!",
+      "x": 235,
+      "y": 80,
+      "icon": {
+        "id": "advancedrocketry:spaceLaser"
+      },
+      "prerequisites": [
+        "eb0270cc-bdbd-4ade-91f5-ee513c5d9724"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:spaceLaser"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b2694af9-e4dd-495a-bed7-66ad423dc392",
+      "name": "Unmanned Vehicle Assambler!",
+      "description": "Unmanned Vehicle Assambler!",
+      "x": 236,
+      "y": 114,
+      "icon": {
+        "id": "advancedrocketry:deployableRocketBuilder"
+      },
+      "prerequisites": [
+        "eb0270cc-bdbd-4ade-91f5-ee513c5d9724"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:deployableRocketBuilder"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a2a1d1ff-ca71-4ac4-a54c-cbebf8c72bd4",
+      "name": "CO2 Scrubber!",
+      "description": "CO2 Scrubber!",
+      "x": 24,
+      "y": 137,
+      "icon": {
+        "id": "advancedrocketry:oxygenScrubber"
+      },
+      "prerequisites": [
+        "eb0270cc-bdbd-4ade-91f5-ee513c5d9724"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:oxygenScrubber"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8beea6a7-d19c-4d38-aa96-f095469ea824",
+      "name": "Space Station ID Chip!",
+      "description": "Space Station Chips are used to set a rocket\u0027s destination to a space station.",
+      "x": 74,
+      "y": 11,
+      "icon": {
+        "id": "advancedrocketry:spaceStationChip"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:spaceStationChip"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "advancedrocketry:spaceStationChip",
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6c6bf0bd-66d3-42ef-ac29-2ba85f25c66b",
+      "name": "Gravity Controller!",
+      "description": "Gravity Controller!",
+      "x": 50,
+      "y": 159,
+      "icon": {
+        "id": "advancedrocketry:gravityController"
+      },
+      "prerequisites": [
+        "eb0270cc-bdbd-4ade-91f5-ee513c5d9724"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "advancedrocketry:gravityController"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "xlfoodmod:speedy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:healthy_energy_drink",
+          "amount": 2
+        },
+        {
+          "id": "xlfoodmod:strong_energy_drink",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

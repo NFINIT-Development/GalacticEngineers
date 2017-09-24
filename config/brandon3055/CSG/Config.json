@@ -1,0 +1,25 @@
+{
+  "inventory": {
+    "0:27": "betterbuilderswands:wandIron",
+    "1:3": "basemetals:copper_helmet",
+    "0:4": "basemetals:copper_sword",
+    "2:0": "hardcorequesting:quest_book",
+    "0:3": "basemetals:copper_hoe",
+    "0:29": "chiselsandbits:chisel_iron,1,0,{}",
+    "0:30": "basemetals:copper_crackhammer",
+    "0:34": "xlfoodmod:beer",
+    "0:33": "xlfoodmod:oreo_cake",
+    "0:7": "xlfoodmod:speedy_energy_drink",
+    "0:5": "xlfoodmod:oreo_cookie,16",
+    "0:6": "xlfoodmod:slice_of_pizza,16",
+    "1:1": "basemetals:copper_leggings",
+    "0:28": "chisel:chisel_iron",
+    "1:2": "basemetals:copper_chestplate",
+    "0:8": "xlfoodmod:speedy_energy_drink",
+    "0:1": "basemetals:copper_shovel",
+    "0:2": "basemetals:copper_axe",
+    "0:35": "xlfoodmod:beer",
+    "1:0": "basemetals:copper_boots",
+    "0:0": "basemetals:copper_pickaxe"
+  }
+}

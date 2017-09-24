@@ -1,0 +1,1 @@
+recipes.addShapeless(<bigreactors:dustmetals:2> *2, [<ore:dustCoal>, <ore:dustCoal>]);
